@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Assignment-3 > Blogs</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li> 
+                </a>
+                <a href="./blogs.html">
+                    <li>Blogs</li>
+                </a>
+            </ul>
+        </nav>
+        <section class="mid-section">
+            <div class="question-heading">
+                <h1>JavaScript Questions</h1>
+            </div>
+            <hr/>
+            <div class="question">
+                <p>1. What is the difference between let, const and var in JavaScript?</p>
+                <p><i>Ans:</i> The differences between let, const and var are in their scope, re-declaration and value assignment. var is function scopped, that means if a var is declared in a function, it is available in all the blocks in that function.</p>
+                <p>let and const are block scopped, that means, let and const are available only in the block they are declared.</p>
+                <p>var can be re-declared and reassigned within its scope. let cannot be re-declared but can be reassigned within the same scope. const must be initialized at declaration.</p>
+            </div>
+            <div class="question">
+                <p>2. What is the difference between find(), filter() method?</p>
+                <p><i>Ans: </i>find() and the filter() are two array method in JavaScript. They both search for elements in an array based on certain condition. But there are differences in their behavior. find() search for the first element which satisfies the conditions and returns it, where filter() search for all the elements that meet the condition and returns an array of those elements.</p>
+            </div>
+            <div class="question">
+                <p>3. How do you select an element in the DOM using JavaScript? Name a few methods.</p>
+                <p><i>Ans: </i>In JavaScript, we use several methods of document object to select elements in the DOM. For example,<br/> to access an element by it's id, we use <i>document.getElementById('id');<i>
+                <br/>to acces elements by their class name, we use <i>document.getElementsByClassName('classname');<i><br/>
+                to access elements by their tag name, we use <i>document.getElementsByTagName('tagname');</i>
+                </p>
+            </div>
+           
+        </section>
+
+        <footer class="footer">
+            <p>&copy;2025 Multiplication Table Generator. All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>

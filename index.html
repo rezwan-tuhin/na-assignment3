@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="scripts/script.js"></script>
+    <title>Assignment-3</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li> 
+                </a>
+                <a href="./blogs.html">
+                    <li>Blogs</li>
+                </a>
+            </ul>
+        </nav>
+        <section class="mid-section">
+            <div class="card">
+                <div class="card-heading">
+                    <h1>Multiplication Table Generator</h1>
+                </div>
+                <div class="form-section">
+                    <input type="number" id="input-number" placeholder="Enter a number" />
+                    <button onclick="multiplication()">Generate Table</button>
+                    <hr class="form-section-hr" />
+                </div> 
+                <div class="table-section">
+                    <h4 id="table-heading" class="table-heading"></h4>
+                    <ul id="list-item" class="list-item">
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+
+        <footer class="footer">
+            <p>&copy;2025 Multiplication Table Generator. All Rights Reserved</p>
+           
+        </footer>
+    </div>
+</body>
+</html>
